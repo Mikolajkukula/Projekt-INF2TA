@@ -1,1 +1,1 @@
-# Projekt-INF2TA
+Mikołaj Kukuła 2TA
