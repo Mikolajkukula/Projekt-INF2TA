@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cosinus Young 15+</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #8bc34a;
+            padding: 10px 20px;
+            text-align: center;
+            color: white;
+            font-size: 14px;
+        }
+        .contact-bar {
+            background-color: #dcedc8;
+            padding: 5px 20px;
+            text-align: center;
+            font-size: 14px;
+            color: #333;
+        }
+        .top-bar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: white;
+            padding: 10px 20px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        .top-bar .logo {
+            font-size: 24px;
+            font-weight: bold;
+            color: #4caf50;
+        }
+        .top-bar .nav-actions {
+            display: flex;
+            gap: 10px;
+            align-items: center;
+        }
+        .search-bar {
+            padding: 5px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        .icon-button {
+            background: none;
+            border: none;
+            cursor: pointer;
+            font-size: 18px;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: white;
+            padding: 10px 20px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        nav ul {
+            list-style: none;
+            display: flex;
+            gap: 20px;
+            margin: 0;
+            padding: 0;
+        }
+        nav ul li {
+            cursor: pointer;
+        }
+        .hero {
+            display: flex;
+            background: linear-gradient(90deg, black 50%, #cddc39 50%);
+            color: white;
+            padding: 50px;
+            align-items: center;
+        }
+        .hero-text {
+            max-width: 50%;
+        }
+        .hero-text h1 {
+            font-size: 36px;
+        }
+        .hero-text p {
+            color: gray;
+        }
+        .cta-button {
+            background-color: #8bc34a;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+            border-radius: 10px;
+            background-color: rgb(166, 255, 0); /* For browsers that do not support gradients */
+            background-image: linear-gradient(to right, rgb(27, 117, 0) , yellow);
+        }
+        .hero-image img {
+            max-width: 400px;
+        }
+        .features {
+            display: flex;
+            justify-content: space-around;
+            background-color: #f9f9f9;
+            padding: 20px;
+        }
+        .feature {
+            text-align: center;
+            max-width: 200px;
+        }
+        .feature img {
+            width: 50px;
+            height: 50px;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        Maecenas lectus metus, lobortis sit amet ultrices quis, tincidunt eget risus. <strong>Duis vitae felis ligula</strong>
+    </header>
+
+    <div class="contact-bar">
+        Orci: +48 500 11 22 33 | Fusce eget pretium: example@example.store
+    </div>
+
+    <div class="top-bar">
+        <div class="logo">Cosinus Young 15+</div>
+        <div class="nav-actions">
+            <input type="text" class="search-bar" placeholder="Szukaj...">
+            <button class="icon-button">🛒</button>
+            <button class="icon-button">👤</button>
+        </div>
+    </div>
+
+    <nav>
+        <ul>
+            <li>Donec pulvinar</li>
+            <li>Proin eget massa</li>
+            <li>Fusce dapibus</li>
+            <li>Donec urna justo</li>
+            <li>Donec mauris</li>
+            <li>Sed purus</li>
+        </ul>
+    </nav>
+
+    <section class="hero">
+        <div class="hero-text">
+            <h1>Quisque facilisis semper hendrerit</h1>
+            <p>Nam in sollicitudin</p>
+            <button class="cta-button">Praesent vel erat</button>
+        </div>
+        <div class="hero-image">
+            <img src="kole/kot.jpg" alt="Zdjecie Bohatera">
+        </div>
+    </section>
+    <footer>
+        &copy; 2024 Cosinus Young 15+. Wszelkie prawa zastrzeżone.
+    </footer>
+    <section class="features">
+        <div class="feature">
+            <img src="https://via.placeholder.com/50" alt="Ikona">
+            <h3>Phasellus iaculis</h3>
+            <p>Phasellus ut tincidunt arcu</p>
+        </div>
+        <div class="feature">
+            <img src="https://via.placeholder.com/50" alt="Ikona">
+            <h3>Donec cursus</h3>
+            <p>Donec hendrerit nisl eget</p>
+        </div>
+        <div class="feature">
+            <img src="https://via.placeholder.com/50" alt="Ikona">
+            <h3>Nam quis libero tortor</h3>
+            <p>Donec nec odio pretium</p>
+        </div>
+        <div class="feature">
+            <img src="https://via.placeholder.com/50" alt="Ikona">
+            <h3>Morbi blandit sit amet</h3>
+            <p>Morbi et neque sit amet augue</p>
+        </div>
+    </section>
+
+    
+</body>
+</html>
+<html>
+
+	<head>
+		<title>Strona główna</title>
+		<!-- head - informacje dla przeglądarki, skrypty, style -->
+		<meta charset="UTF-8">
+		
+		<style>
+		/* style z W3 - start */
+
+img {
+  vertical-align: middle;
+}
+
+/* Position the image container (needed to position the left and right arrows) */
+.container {
+  position: relative;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Add a pointer when hovering over the thumbnail images */
+.cursor {
+  cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* Container for image text */
+.caption-container {
+  text-align: center;
+  background-color: #222;
+  padding: 2px 16px;
+  color: white;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Six columns side by side */
+.column {
+  float: left;
+  width: 16.66%;
+}
+
+/* Add a transparency effect for thumnbail images */
+.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+		
+		/*style z W3 - stop */
+		
+		
+			* {
+				margin: 0;
+			}
+		
+			.bg-green {
+				background-color: #6ab926;
+				color: #fff;
+				padding: 10px;
+				text-align: center;
+				font-family: sans-serif;
+				font-size: 10px;
+			}
+			
+			#info {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9;
+    width: 100vw;
+    min-height: 25px;
+}
+			
+#nav {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+	padding: 20px;
+	column-gap: 20px;
+	overflow-x: auto;
+}
+
+#nav > div {
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    column-gap: 20px;
+}
+			
+			body {
+				min-height: 200vh;
+			}
+		</style>
+	</head>
+	
+	<body>
+	
+		<header>
+			<div id="info" class="bg-green">Curabitur ac felis arcu. Sed euismod, urna eu tincidunt consectetur, nisi nisl lacinia mi, <strong>a tincidunt nisi nisl sit amet urna</strong></div>
+			
+			<div id="nav">
+			  <div>
+			    <div>
+			      <a href="tel:500600700">500600700</a>
+			    </div>
+			    <div>
+			      <a href="mailto:mail@example.com">mail@example.com</a>
+			    </div>
+			  </div>
+			  <div>
+			    <div>
+			      <a href="https://www.google.pl/" target="_blank">Google</a>
+			    </div>
+				<div>
+			      <a href="https://synergia.librus.pl/interfejs_lekcyjny" target="_blank">Librus</a>
+			    </div>
+			  </div>
+			</div>
+			
+			
+			<div id="main-slider">
+			  <h2 style="text-align:center">Slideshow Gallery</h2>
+
+<div class="container">
+  <div class="mySlides">
+    <div class="numbertext">1 / 6</div>
+    <img src="https://www.w3schools.com/howto/img_woods_wide.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">2 / 6</div>
+    <img src="https://www.w3schools.com/howto/img_5terre_wide.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">3 / 6</div>
+    <img src="https://www.w3schools.com/howto/img_mountains_wide.jpg" style="width:100%">
+  </div>
+    
+  <div class="mySlides">
+    <div class="numbertext">4 / 6</div>
+    <img src="https://www.w3schools.com/howto/img_lights_wide.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">5 / 6</div>
+    <img src="https://www.w3schools.com/howto/img_nature_wide.jpg" style="width:100%">
+  </div>
+    
+  <div class="mySlides">
+    <div class="numbertext">6 / 6</div>
+    <img src="https://www.w3schools.com/howto/img_snow_wide.jpg" style="width:100%">
+  </div>
+    
+  <a class="prev" onclick="plusSlides(-1)">❮</a>
+  <a class="next" onclick="plusSlides(1)">❯</a>
+
+  <div class="caption-container">
+    <p id="caption"></p>
+  </div>
+
+  <div class="row">
+    <div class="column">
+      <img class="demo cursor" src="https://www.w3schools.com/howto/img_woods_wide.jpg" style="width:100%" onclick="currentSlide(1)" alt="The Woods">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="https://www.w3schools.com/howto/img_5terre_wide.jpg" style="width:100%" onclick="currentSlide(2)" alt="Cinque Terre">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="https://www.w3schools.com/howto/img_mountains_wide.jpg" style="width:100%" onclick="currentSlide(3)" alt="Mountains and fjords">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="https://www.w3schools.com/howto/img_lights_wide.jpg" style="width:100%" onclick="currentSlide(4)" alt="Northern Lights">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="https://www.w3schools.com/howto/img_nature_wide.jpg" style="width:100%" onclick="currentSlide(5)" alt="Nature and sunrise">
+    </div>    
+    <div class="column">
+      <img class="demo cursor" src="https://www.w3schools.com/howto/img_snow_wide.jpg" style="width:100%" onclick="currentSlide(6)" alt="Snowy Mountains">
+    </div>
+  </div>
+</div>
+
+<script>
+let slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("demo");
+  let captionText = document.getElementById("caption");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+  captionText.innerHTML = dots[slideIndex-1].alt;
+}
+</script>
+			</div>
+		</header>
+		
+		<main>
+		  Dodajcie tutaj własną treść - teksty, kolumny, tabele, grafiki itp.
+		</main>
+		
+		<footer>
+		</footer>
+	
+	</body>
+
+</html>
